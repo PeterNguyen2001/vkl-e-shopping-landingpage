@@ -25,6 +25,7 @@ import { CalculateCart, restoreCart } from './app/redux/cartSlice'
 import { useDispatch } from 'react-redux'
 import { fetchListCategory } from './app/redux/categorySlice'
 import { loadCitiesData } from './app/redux/addressSlice'
+import UserOrder from './pages/userorder'
 
 export default function App() {
   const dispatch = useDispatch()
@@ -43,12 +44,11 @@ export default function App() {
         <Route exact path='/product' component={ProductPage} />
         <Route path='/product/:id' component={ProductPage} />
         <Route
-
           path='/product-details/:productInfo'
-
           component={ProductDetails}
         />
         <Route path='/about-us' component={About} />
+        <Route path='/userorder' component={UserOrder} />
         <Route path='/blog-detail' component={Blog} />
         <Route path='/blog' component={BlogDetails} />
         <Route path='/list' component={List} />

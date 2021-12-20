@@ -10,9 +10,7 @@ function Register() {
   var [password, setPassWord] = useState()
   function handleRegister() {
     var user = { email: username, username, password }
-    axiosClient
-      .post('/api/auth/register', user)
-      .then((res) => localStorage.setItem('user', JSON.stringify(user)))
+    axiosClient.post('/api/auth/register', user)
     history.push('/login')
   }
   return (
