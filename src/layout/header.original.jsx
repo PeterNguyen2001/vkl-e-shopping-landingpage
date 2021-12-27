@@ -18,7 +18,7 @@ class Header extends Component {
                       <div id="slideshow">
                         <p>
                           Special Offers! - Get <span>50%</span> off on
-                          vegetables{" "}
+                          all books{" "}
                         </p>
                         <p>
                           sale <span>40%</span> of on bulk shopping!{" "}

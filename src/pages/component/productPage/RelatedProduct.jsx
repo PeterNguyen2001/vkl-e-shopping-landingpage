@@ -140,7 +140,7 @@ export default function RelatedProduct({ currentCategory }) {
     <div>
       <div className="slider-items-products">
         <div className="new_title center">
-          <h2>Sản phẩm liên quan</h2>
+          <h2>Related Product</h2>
           <ProductsCarousel />
         </div>
       </div>

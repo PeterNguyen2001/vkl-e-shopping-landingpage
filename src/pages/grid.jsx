@@ -281,7 +281,10 @@ export default function Grid() {
                                   <div className="item-price">
                                     <div className="price-box">
                                       <span className="regular-price">
-                                        <span className="price">$125.00</span>{" "}
+                                        <span className="price">
+                                          {product.price}
+                                          {" VND"}
+                                        </span>{" "}
                                       </span>{" "}
                                     </div>
                                   </div>
@@ -394,32 +397,6 @@ export default function Grid() {
                           {" "}
                           <Link to={"/grid"}> Romance </Link>{" "}
                           <span className="subDropdown plus"></span>
-                          <ul className="level1" style={{ display: "none" }}>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Coconuts</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Dragonfruits</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Pomegranates</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Passionfruit</span>
-                              </Link>{" "}
-                            </li>
-                          </ul>
                           {/* <!--level1--> */}
                         </li>
 
@@ -428,32 +405,6 @@ export default function Grid() {
                           {" "}
                           <Link to={"/grid"}>Thrillers </Link>{" "}
                           <span className="subDropdown plus"></span>
-                          <ul className="level1">
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Fresh Oranges</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Grapefruits</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Organic Limes</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Yellow Lemons</span>
-                              </Link>{" "}
-                            </li>
-                          </ul>
                           {/* <!--level1--> */}
                         </li>
 
@@ -462,32 +413,6 @@ export default function Grid() {
                           {" "}
                           <Link to={"/grid"}>Poetry</Link>{" "}
                           <span className="subDropdown plus"></span>
-                          <ul className="level1">
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Sweet Apricots</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Nectarines</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Doughnut Peachs</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Italian Fruits</span>
-                              </Link>{" "}
-                            </li>
-                          </ul>
                           {/* <!--level1--> */}
                         </li>
 
@@ -496,32 +421,6 @@ export default function Grid() {
                           {" "}
                           <Link to={"/grid"}>History </Link>{" "}
                           <span className="subDropdown plus"></span>
-                          <ul className="level1">
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Black Jamuns</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Fresh Mangos</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Organic Litchis</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Longans</span>
-                              </Link>{" "}
-                            </li>
-                          </ul>
                           {/* <!--level1--> */}
                         </li>
 
@@ -529,32 +428,6 @@ export default function Grid() {
                           {" "}
                           <Link to={"/grid"}>Sci-fi </Link>{" "}
                           <span className="subDropdown plus"></span>
-                          <ul className="level1">
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Strawberries</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Raspberries</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Blackberries</span>
-                              </Link>{" "}
-                            </li>
-                            <li>
-                              {" "}
-                              <Link to={"/grid"}>
-                                <span>Cherries</span>
-                              </Link>{" "}
-                            </li>
-                          </ul>
                           {/* <!--level1--> */}
                         </li>
                       </ul>

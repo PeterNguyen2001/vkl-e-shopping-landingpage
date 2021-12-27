@@ -62,7 +62,7 @@ export default function Index() {
         <section className=" wow bounceInUp animated">
           <div className="best-pro slider-items-products container">
             <div className="new_title">
-              <h2>Danh sách bán chạy</h2>
+              <h2>Best Seller</h2>
               <h4>So you get to know me better</h4>
             </div>
             <BestSeller />
@@ -162,6 +162,7 @@ export default function Index() {
                                     <span className="regular-price">
                                       <span className="price">
                                         {item.price}
+                                        {' VND'}
                                       </span>
                                     </span>{" "}
                                   </div>

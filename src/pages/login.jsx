@@ -53,7 +53,7 @@ function Login() {
                   </div>
                 </div>
                 <div className='col-2 registered-users'>
-                  <strong>Registered Customers</strong>
+                  <strong>Login Customers</strong>
                   <div className='content'>
                     <p>If you have an account with us, please log in.</p>
                     <ul className='form-list'>

@@ -72,7 +72,7 @@ export default function SlideShow() {
                       style={{ zIndex: "4", whiteSpace: "nowrap" }}
                     >
                       <a href="#" className="buy-btn">
-                        Mua ngay
+                        Buy Now
                       </a>
                     </div>
                     <div

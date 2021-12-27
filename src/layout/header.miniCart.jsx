@@ -86,7 +86,7 @@ export default function MiniCartContent() {
                 title="Checkout"
                 type="button"
               >
-                <span>Xem giỏ hàng</span>
+                <span>View Cart</span>
               </Link>
             </div>
             {/* <!--actions--> */}

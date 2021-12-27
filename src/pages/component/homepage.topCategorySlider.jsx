@@ -21,7 +21,7 @@ export default function TopCategorySlider() {
           {listProduct.map((cate, index) => (
             <div className="item" key={index}>
               {" "}
-              <Link to={"/product/" + cate.id}>
+              <Link to={"/product-details/" + cate.id}>
                 <div className="pro-img">
                   <img src={cate.image} alt="Fresh Organic Mustard Leaves " />
                   <div className="pro-info">{cate.name}</div>

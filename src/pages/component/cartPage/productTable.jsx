@@ -48,16 +48,16 @@ export default function ListProductInCart() {
           <tr className="first last">
             <th rowspan="1">&nbsp;</th>
             <th rowspan="1">
-              <span className="nobr">Tên sản phẩm</span>
+              <span className="nobr">Product Name</span>
             </th>
             <th className="a-center" colspan="1">
-              <span className="nobr">Giá</span>
+              <span className="nobr">Price</span>
             </th>
             <th rowspan="1" className="a-center">
-              Số lượng
+              Quantily
             </th>
             <th className="a-center" colspan="1">
-              Tạm tính
+              Total
             </th>
             <th rowspan="1" className="a-center">
               &nbsp;

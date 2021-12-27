@@ -14,7 +14,7 @@ export default function ProductPageHeading({ currentCategory }) {
                   <li className="home">
                     {" "}
                     <Link to={"/"} title="Go to Home Page">
-                      Trang chủ
+                      Home
                     </Link>{" "}
                     <span>&rsaquo;</span>{" "}
                   </li>

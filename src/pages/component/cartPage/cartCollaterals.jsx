@@ -20,9 +20,9 @@ export default function CartCollaterals() {
 
           <div className="col-sm-6">
             <div className="discount">
-              <h3>Mã khuyến mãi</h3>
+              <h3>COUPON CODE</h3>
               <form id="discount-coupon-form" action="" method="post">
-                <label for="coupon_code">Nhập mã khuyến mãi của bạn.</label>
+                <label for="coupon_code">Enter your coupon code.</label>
                 <input
                   type="hidden"
                   name="remove"
@@ -44,7 +44,7 @@ export default function CartCollaterals() {
                   onClick="discountForm.submit(false)"
                   value="Apply Coupon"
                 >
-                  <span>Áp dụng</span>
+                  <span>APPLY</span>
                 </button>
               </form>
             </div>
@@ -56,7 +56,7 @@ export default function CartCollaterals() {
 
           <div className="col-sm-6">
             <div className="totals">
-              <h3>Giá trị đơn hàng của bạn</h3>
+              <h3>Value of your total cart</h3>
               <div className="inner">
                 <table
                   id="shopping-cart-totals-table"
@@ -69,7 +69,7 @@ export default function CartCollaterals() {
                   <tfoot>
                     <tr>
                       <td className="a-left" colspan="1">
-                        <strong>Tổng cộng</strong>
+                        <strong>Total</strong>
                       </td>
                       <td className="a-right">
                         <strong>
@@ -83,7 +83,7 @@ export default function CartCollaterals() {
                   <tbody>
                     <tr>
                       <td className="a-left" colspan="1">
-                        Tạm tính{" "}
+                        Notional Price{" "}
                       </td>
                       <td className="a-right">
                         <span className="price">
@@ -93,7 +93,7 @@ export default function CartCollaterals() {
                     </tr>
                     <tr>
                       <td className="a-left" colspan="1">
-                        Chiết khấu{" "}
+                        Discount{" "}
                       </td>
                       <td className="a-right">
                         <span className="price">
@@ -114,7 +114,7 @@ export default function CartCollaterals() {
                         history.push("/checkout");
                       }}
                     >
-                      <span>Tiến tới đặt hàng</span>
+                      <span>Go to checkout</span>
                     </button>
                   </li>
                   <br />

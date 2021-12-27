@@ -54,7 +54,7 @@ export default function BestSeller() {
                         <div className='box-inner'>
                           <div className='product-detail-bnt'>
                             <Link to='/' className='button detail-bnt'>
-                              <span>Xem nhanh</span>
+                              <span>Quick view</span>
                             </Link>
                           </div>
                           <div className='actions'>
@@ -64,7 +64,7 @@ export default function BestSeller() {
                                 className='link-wishlist'
                                 title='Add to Wishlist'
                               >
-                                <span>Thêm vào danh sách</span>
+                                <span>Add to cart</span>
                               </Link>{' '}
                               <Link
                                 to='/'
@@ -87,7 +87,7 @@ export default function BestSeller() {
                         className='button btn-cart'
                         type='button'
                       >
-                        <span>Thêm vào giỏ hàng</span>
+                        <span>Add to cart</span>
                       </button>
                     </div>
                   </div>
@@ -96,7 +96,7 @@ export default function BestSeller() {
                       <div className='item-title'>
                         <Link
                           to={`/product-details/${product.id}`}
-                          title='Fresh Organic Mustard Leaves '
+                          title='Best book ever '
                         >
                           {product.name}{' '}
                         </Link>{' '}
